@@ -17,11 +17,11 @@ app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
 def layout():
     """
     Wrapping this in a function makes it easier to write the layout. All that's
-    happening here is that two cards are being defined (`first_card` and `second_card`),
-    and those two cards are assembled as a row. So in the final product, you see two cards 
-    next to each other, each with a header, some body text, and a graph.
+    happening here is that a card is being defined and cards is wrapped in the container. 
+    So in the final product, you see a card with a header, some body text, and a graph.
 
-    There are also two dropdowns, each 
+    There is also a dropdown that controls the type of visual, and the options are 
+    populated with a list comprehension.
     """
     chart_types = ["splom", "scatter", "density", "parallel"]
 
