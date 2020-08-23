@@ -1,3 +1,4 @@
 dash_bootstrap_components==0.10.5
+dash-table==4.9.0
 gunicorn==19.9.0
 pandas==0.25.3
