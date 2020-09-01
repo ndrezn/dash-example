@@ -17,7 +17,7 @@ app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
 def layout():
     """
     Wrapping this in a function makes it easier to write the layout. All that's
-    happening here is that a card is being defined and cards is wrapped in the container. 
+    happening here is that a card is being defined. 
     So in the final product, you see a card with a header, some body text, and a graph.
 
     There is also a dropdown that controls the type of visual, and the options are 
