@@ -13,6 +13,8 @@ import chart_utils
 
 app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
 
+server = app.server
+
 
 def layout():
     """
